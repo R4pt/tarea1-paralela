@@ -19,17 +19,11 @@ python -m pip install -r requirements.txt
 ### Demo animada de un patron clasico
 
 ```bash
-python main.py demo --pattern glider --size 64 --steps 200
+python main.py demo --pattern *tipo de patron* --size *tamaño del encuadre* --steps *numero de pasos*
 ```
 
 Patrones disponibles: `block`, `beehive`, `blinker`, `toad`, `beacon`,
 `pulsar`, `glider`, `lwss`, `random`.
-
-### Estado inicial aleatorio
-
-```bash
-python main.py demo --pattern random --size 128 --density 0.25 --steps 300
-```
 
 ### Guardar la animacion como GIF
 
@@ -50,16 +44,3 @@ python main.py benchmark --sizes 64 128 256 512 1024 --iters 50 --compare
 ```
 
 Los resultados (graficas) se guardan en la carpeta `resultados/`.
-
-## Estructura del proyecto
-
-```
-juego_de_la_vida/
-├── game_of_life.py     # Clase GameOfLife
-├── patterns.py         # Patrones clasicos
-├── visualization.py    # Animacion con matplotlib
-├── benchmark.py        # Medicion de rendimiento
-├── main.py             # CLI principal
-├── requirements.txt    # Dependencias
-└── resultados/         # Salidas generadas
-```
