@@ -37,12 +37,6 @@ python main.py demo --pattern pulsar --size 32 --steps 60 --save salida.gif --no
 python main.py benchmark --sizes 32 64 128 256 512 1024 --reps 50
 ```
 
-Comparar paralelo vs secuencial:
-
-```bash
-python main.py benchmark --sizes 64 128 256 512 1024 --reps 50 --compare
-```
-
 Los resultados (graficas).
 
 ## Resultados
