@@ -43,13 +43,13 @@ Comparar paralelo vs secuencial:
 python main.py benchmark --sizes 64 128 256 512 1024 --reps 50 --compare
 ```
 
-Los resultados (graficas) se guardan en la carpeta `resultados/`.
+Los resultados (graficas).
 
 ## Resultados
 
 ### Ejemplos de animaciones
 
-!(resultados/evolucion.gif)
+![Animacion](evolucion.gif)
 
 ### Graficas de rendimiento
 
